@@ -1,0 +1,21 @@
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "a project management application",
+  "keywords": [
+    "backend",
+    "project",
+    "API",
+    "creation"
+  ],
+  "license": "ISC",
+  "author": "Vidit Sharma",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.8.3"
+  }
+}
