@@ -27,5 +27,8 @@ app.use("/api/v1/healthcheck", healthCheckRouter);
 app.get("/", (req, res) => {
   res.send("Welcome basecampy");
 });
+app.get("/insta", (req, res) => {
+  res.send("This is an instagram page");
+});
 
 export default app;
